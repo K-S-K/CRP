@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRP.Common\CRP.Common.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <IntermediateOutputPath>..\Obj\$(Configuration)\Site</IntermediateOutputPath>
+    <OutputPath>..\Bin\$(Configuration)\Site</OutputPath>
+  </PropertyGroup>
+
+</Project>
